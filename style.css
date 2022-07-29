@@ -43,6 +43,11 @@ footer ul a {
   border-radius: 50%;
 }
 
+@media screen and(max-width: 1200px) {
+  #trust {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 1074px) {
   #inner-footer {
     width: 40%;
