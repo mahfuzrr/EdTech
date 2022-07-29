@@ -22,6 +22,10 @@
   text-align: center;
 }
 
+.trustSection img {
+  width: 120px;
+}
+
 footer {
   height: 50vh;
 }
@@ -43,11 +47,12 @@ footer ul a {
   border-radius: 50%;
 }
 
-@media screen and(max-width: 1200px) {
-  #trust {
-    width: 100%;
+@media screen and (max-width: 1300px) {
+  .trustSection img {
+    width: 100px;
   }
 }
+
 @media only screen and (max-width: 1074px) {
   #inner-footer {
     width: 40%;
