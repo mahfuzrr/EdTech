@@ -17,11 +17,6 @@
   top: 30%;
 }
 
-#inner-footer {
-  width: 25%;
-  text-align: center;
-}
-
 .trustSection img {
   width: 120px;
 }
@@ -55,8 +50,7 @@ footer ul a {
 
 @media only screen and (max-width: 1074px) {
   #inner-footer {
-    width: 40%;
-    text-align: center;
+    width: 40% !important;
   }
   .innerText {
     top: 20%;
@@ -77,8 +71,7 @@ footer ul a {
 
 @media only screen and (max-width: 669px) {
   #inner-footer {
-    width: 50%;
-    text-align: center;
+    width: 50% !important;
   }
   .innerText {
     top: 15%;
@@ -180,7 +173,6 @@ footer ul a {
 
 @media only screen and (max-width: 547px) {
   #inner-footer {
-    width: 80%;
-    text-align: center;
+    width: 80% !important;
   }
 }
