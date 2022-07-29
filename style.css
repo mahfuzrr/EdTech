@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.carousel-item img {
+  filter: brightness(45%);
+  position: relative;
+}
+
+.innerText {
+  position: absolute;
+  top: 30%;
+}
+
+#inner-footer {
+  width: 25%;
+  text-align: center;
+}
+
+footer {
+  height: 50vh;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: light;
+}
+
+#social-icons {
+  list-style: none;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(101, 101, 101);
+  padding: 5px 9px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1074px) {
+  #inner-footer {
+    width: 40%;
+    text-align: center;
+  }
+  .innerText {
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .joinCls {
+    text-align: center;
+  }
+  .joinCls p {
+    width: 100% !important;
+  }
+  .hideLater {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 669px) {
+  #inner-footer {
+    width: 50%;
+    text-align: center;
+  }
+  .innerText {
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width: 731px) {
+  .innerText h1 {
+    font-size: 25px;
+  }
+  .innerText p {
+    font-size: 14px !important;
+  }
+  .joins div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .joinDiv {
+    padding-left: 0 !important;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .innerText h1 {
+    font-size: 18px;
+  }
+  .innerText p {
+    font-size: 12px !important;
+  }
+
+  .innerText button {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 497px) {
+  .innerText h1 {
+    font-size: 16px;
+  }
+  .innerText p {
+    font-size: 10px !important;
+  }
+
+  .innerText button {
+    font-size: 10px;
+  }
+
+  .title {
+    width: 100% !important;
+  }
+
+  .title h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .title p {
+    font-size: 12px !important;
+  }
+
+  .cardMargin {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 443px) {
+  .innerText {
+    top: 5%;
+  }
+  .innerText p {
+    font-size: 8px !important;
+  }
+
+  .innerText button {
+    font-size: 7px;
+  }
+  .innerText {
+    width: 80% !important;
+  }
+
+  .joinCls p {
+    font-size: 13px;
+  }
+  .joinDiv {
+    padding-left: 0 !important;
+  }
+  #accordionPanelsStayOpenExample {
+    width: 95% !important;
+  }
+}
+@media only screen and (max-width: 316px) {
+  .innerText p {
+    font-size: 5px !important;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  #inner-footer {
+    width: 80%;
+    text-align: center;
+  }
+}
